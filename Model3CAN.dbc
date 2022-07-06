@@ -2724,24 +2724,24 @@ BO_ 1310 ID51EFC_info: 8 VehicleBus
  SG_ FC_partNumChar20 m27 : 48|8@1+ (1,0) [0|1] ""  Receiver
 
 BO_ 886 ID376FrontInverterTemps: 8 VehicleBus
- SG_ TempInvPCB376 : 0|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ TempPctStator376 : 48|8@1+ (0.4,0) [0|102] "%"  Receiver
- SG_ TempPctInverter376 : 40|8@1+ (0.4,0) [0|102] "%"  Receiver
- SG_ TempInvCapbank376 : 24|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ TempStator376 : 16|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ TempInvHeatsink376 : 32|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ TempInverter376 : 8|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ DIF_inverterTQF : 56|2@1+ (1,0) [0|3] ""  Receiver
+ SG_ TempIndex M: 0|3@1+ (1,0) [0|1] "" X
+ SG_ TempPctStator376 m1: 48|8@1+ (0.4,0) [0|102] "%"  Receiver
+ SG_ TempPctInverter376 m1: 40|8@1+ (0.4,0) [0|102] "%"  Receiver
+ SG_ TempInvCapbank376 m1: 24|8@1+ (1,-40) [-40|215] "C"  Receiver
+ SG_ TempStator376 m1: 16|8@1+ (1,-40) [-40|215] "C"  Receiver
+ SG_ TempInvHeatsink376 m1: 32|8@1+ (1,-40) [-40|215] "C"  Receiver
+ SG_ TempInverter376 m1: 8|8@1+ (1,-40) [-40|215] "C"  Receiver
+ SG_ DIF_inverterTQF m1: 56|2@1+ (1,0) [0|3] ""  Receiver
 
 BO_ 789 ID315RearInverterTemps: 8 VehicleBus
- SG_ RearTempInvPCB315 : 0|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ RearTempPctStator315 : 48|8@1+ (0.4,0) [0|102] "%"  Receiver
- SG_ RearTempPctInverter315 : 40|8@1+ (0.4,0) [0|102] "%"  Receiver
- SG_ RearTempInvCapbank315 : 24|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ RearTempStator315 : 16|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ RearTempInvHeatsink315 : 32|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ RearTempInverter315 : 8|8@1+ (1,-40) [-40|215] "C"  Receiver
- SG_ DIR_inverterTQF : 56|2@1+ (1,0) [0|3] ""  Receiver
+ SG_ RearTempIndex M: 0|3@1+ (1,0) [0|1] "" X
+ SG_ RearTempPctStator315 m1: 48|8@1+ (0.4,0) [0|102] "%"  Receiver
+ SG_ RearTempPctInverter315 m1: 40|8@1+ (0.4,0) [0|102] "%"  Receiver
+ SG_ RearTempInvCapbank315 m1: 24|8@1+ (1,-40) [-40|215] "C"  Receiver
+ SG_ RearTempStator315 m1: 16|8@1+ (1,-40) [-40|215] "C"  Receiver
+ SG_ RearTempInvHeatsink315 m1: 32|8@1+ (1,-40) [-40|215] "C"  Receiver
+ SG_ RearTempInverter315 m1: 8|8@1+ (1,-40) [-40|215] "C"  Receiver
+ SG_ DIR_inverterTQF m1: 56|2@1+ (1,0) [0|3] ""  Receiver
 
 BO_ 340 ID154RearTorqueOld: 8 VehicleBus
  SG_ RAWTorqueRear154 : 40|12@1- (0.25,0) [-512|511.75] "NM"  Receiver
